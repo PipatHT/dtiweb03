@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       [type="text"]{
+            background-color: rgb(255, 226, 202);
+       }
+
+       [type="submit"]{
+            background-color: green;
+            padding: 5px;
+       }
+
+       [type="reset"]{
+            background-color: red;
+            padding: 5px;
+       }
+       
+       [placeholder]{
+            font-weight: bold;
+       }
+
+       input::placeholder{
+            color: red
+       }
+
+       a:hover{
+            color: red;
+            font-size: 2rem;
+       }
+
+    </style>
+</head>
+<body>
+    <h1>Test 10</h1>
+    <a href="https://www.sanook.com">SANOOK</a>
+    <br><br>
+    <form action="" method="">
+        <label for="fname">ชื่อ:</label>
+        <input type="text" name="fname" id="" placeholder="ภาษาไทยเท่านั้น">
+        <br><br>
+        <label for="lname">นามสกุล:</label>
+        <input type="text" name="lname" id="" placeholder="ภาษาอังกฤษเท่านั้น">
+        <br><br>
+        <label for="uname">ชื่อผู้ใช้:</label>
+        <input type="text" name="uname" id="">
+        <br><br>
+        <label for="pword">รหัสผ่าน:</label>
+        <input type="password" name="pword" id="">
+        <br><br>
+        <input type="submit" value="สมัครสมาชิก">
+        <input type="reset" value="ยกเลิก">
+    </form>
+
+</body>
+</html>

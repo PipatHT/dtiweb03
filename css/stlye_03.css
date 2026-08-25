@@ -1,0 +1,15 @@
+#Dti-01{
+        text-align: center;
+        color: red;
+      }
+      #dti-02{
+        text-align: center;
+        text-decoration: underline;
+        color: rgb(130, 56, 190);
+      }
+      strong{
+        color: purple;
+      }
+      div{
+        text-align: center;
+      }
